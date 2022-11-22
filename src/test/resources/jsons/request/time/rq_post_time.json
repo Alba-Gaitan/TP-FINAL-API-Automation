@@ -1,0 +1,27 @@
+{
+  "url": "https://api.clockify.me/api/v1",
+  "headers": {
+    "X-Api-Key": "{{api-key}}",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "start": "2022-11-15T08:00:14.000Z",
+    "billable": "true",
+    "description": "Agregar horas academy",
+    "projectId": "63783b615efc1b3c1688ff6a",
+    "taskId": null,
+    "end": "2022-11-15T18:14:14.000Z",
+    "tagIds": [
+      ""
+    ],
+    "customFields": [
+      {
+        "customFieldId" : "",
+        "value": "2022-11-15T8:08:14.000Z"
+      }
+    ]
+  },
+
+  "endpoint": "/workspaces/{{wSpace}}/time-entries"
+}
+
