@@ -39,7 +39,7 @@ Feature: Time Entry
   Scenario Outline: Eliminar horas registradas exitosamente
     Given Mi cuenta creada en clockify y mi X-Api-Key generada
     And un id_WSpace
-    And un id del registro de horas
+    And un id del registro de horas a eliminar
     When I perform a '<operation>' to '<entity>' endpoint with the '<jsonName>' and ''
     Then se obtuvo el status code <status>
 

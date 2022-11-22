@@ -18,7 +18,12 @@ public class TimeEntrySteps extends PageSteps {
 
     @And("un id del registro de horas")
     public void unId_Horas() {
-        BaseService.ID.set("637d0e85f0f7d645a5ff4115");
+        BaseService.ID.set("637d04e9900d046e778e74f5");
     }
 
+
+    @And("un id del registro de horas a eliminar")
+    public void unIdDelRegistroDeHorasAEliminar() {
+        BaseService.ID.set("637d08a07840962f9daf549c");
+    }
 }
